@@ -2,7 +2,7 @@ import type { ModuleDefinition } from "@/config/modules";
 
 interface ModuleCardProps {
   module: ModuleDefinition;
-  url?: string;
+  url?: string | undefined;
   delayMs: number;
 }
 
